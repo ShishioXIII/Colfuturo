@@ -1,0 +1,50 @@
+<mat-toolbar>
+  <mat-toolbar-row style="    background-color: white;     border-top: solid 2px gray;padding-left: 0px;">
+    <div style="height: 100%;"><img src="../assets/img/logo.jpeg" style="height: 100%;width: 180px;"></div>
+    <span class="example-fill-remaining-space"></span>
+    <span class="span_div_superior">
+      <span>Christian Mogollon Pinzon</span>
+      <span>C.C 80076373</span>
+    </span>
+    <span class="span_div_superior">
+      <span>Ingenieria de Sistemas / Systems engineering
+      </span>
+      <span>Universidad Distrital</span>
+      <span>Bogota / Colombia</span>
+      <span>COLFUTURO / PCB 7 2017 </span>
+    </span>
+    <span class="example-fill-remaining-space"></span>
+  </mat-toolbar-row>
+  <mat-toolbar-row style="  height: 30px; ">
+    <div style="width: 180px;">{{jstoday}}</div>
+    <div>Mi estatus: POE - Periodo Ordinario de Estudios <b>del 01 sep 2017 al 31 jul 2019 / 23 meses</b></div>
+  </mat-toolbar-row>
+</mat-toolbar>
+<mat-sidenav-container>
+  <mat-sidenav mode="side" opened>
+    <ul>
+      <li><b>Acciones</b></li>
+      <li>Inicio</li>
+      <li>Estatus</li>
+      <li>Presupuesto y giros</li>
+      <li>Cuentas bancarias</li>
+      <li>Cartas de patrocinio</li>
+      <li>Certificado de deuda</li>
+      <li>Interacciones</li>
+      <li><b>Mi información</b></li>
+      <li>Actualización de datos</li>
+      <li>Proyecto apoyado</li>
+      <li>Académica</li>
+      <li>Permanecia</li>
+      <li>Laboral</li>
+      <li>Codeudores</li>
+      <li>Documentos</li>
+    </ul>
+
+  </mat-sidenav>
+  <mat-sidenav-content>Main content</mat-sidenav-content>
+</mat-sidenav-container>
+
+<mat-toolbar class>COLFUTURO: Fundación para el futuro de Colombia...................................Carrera 15 No.
+  37-15 Bogota, Colombia</mat-toolbar>
+<router-outlet></router-outlet>

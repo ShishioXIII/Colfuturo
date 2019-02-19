@@ -1,0 +1,44 @@
+
+.mat-toolbar-row, .mat-toolbar-single-row{
+    color: #808080;
+    font-family: 'Droid Sans',sans-serif;
+    font-size: 12px;
+    height: 100px;
+}
+
+.mat-toolbar-row div{
+    height: 100%;
+}
+
+
+.mat-sidenav-container{
+    color: #808080;
+    font-family: 'Droid Sans',sans-serif;
+    font-size: 12px;
+    height: 400px;   
+}
+.mat-sidenav-container li{
+    color: #808080;
+    font-family: 'Droid Sans',sans-serif;
+    font-size: 12px;
+ 
+}
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+.example-fill-remaining-space {
+    flex: 1 1 auto;
+  }
+
+  .span_div_superior{
+    display: inline-grid;
+    padding-left: 20px;
+
+    height: 100%;
+
+  }
+
+  .span_div_superior  span{
+  height: 20px;
+  }
