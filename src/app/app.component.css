@@ -27,6 +27,14 @@ ul {
     list-style-type: none;
     padding-left: 20px;
 }
+li a{
+   text-decoration: none;
+   color: #808080;
+}
+li a:hover{
+    background: red;
+    color: white;
+}
 .example-fill-remaining-space {
     flex: 1 1 auto;
   }
@@ -34,9 +42,7 @@ ul {
   .span_div_superior{
     display: inline-grid;
     padding-left: 20px;
-
     height: 100%;
-
   }
 
   .span_div_superior  span{
